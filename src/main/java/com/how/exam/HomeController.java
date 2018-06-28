@@ -23,7 +23,7 @@ public class HomeController {
 	 */
 	@RequestMapping(value = "/")
 	public String home(Model model , HttpServletRequest request) {
-		TELOG.info("+++++++++++", request.getSession());
+		TELOG.info("+++++112++++++", request.getSession());
 		
 		Date date = new Date();
 				
